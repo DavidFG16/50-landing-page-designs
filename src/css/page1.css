@@ -37,7 +37,7 @@ header p {
 
 }
 
-header button {
+header a {
     margin-top: 24px;
     border-radius: 16px;
     width: 158px;
@@ -49,6 +49,8 @@ header button {
     border: none;
     cursor: pointer;
     font-weight: lighter;
+    text-decoration: none;
+    padding:18px 48px ;
 }
 
 main {
