@@ -16,8 +16,7 @@ header {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 610px;
-    margin-top: 64px
+    padding: 64px 415px;
 }
 
 header h1 {
@@ -48,6 +47,21 @@ header button {
     font-family: "avenir-roman";
     font-size: 18px;
     border: none;
-    font-weight: normal;
     cursor: pointer;
+    font-weight: lighter;
+}
+
+main {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:16px;
+}
+
+main img {
+    width: 316px;
+    height: 288px;
+    object-fit: cover;
+    border-radius: 16px;
 }
