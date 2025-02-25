@@ -7,6 +7,7 @@
 
 header{
     display: flex;
+    padding:65px 64px 72px ;
 }
 
 header img{
@@ -17,30 +18,25 @@ header img{
 }
 
 header > img{
-    margin: 152px 64px 0 35px;  
-}
-
-header .first_image{
-    margin-top: 64px;
+    margin: 152px 0 0 35px;  
 }
 
 header .info_title{
     display: flex;
     flex-direction: column;
-    padding: 137px 17px 159px 64px;
+    padding: 72px 75px 0 2px;
     align-items: flex-start;
  
 }
 
 header .info_title h1{
     font-family: "Avenir-Heavy";
-    padding-bottom: 24px;
     font-size: 56px;
     color: var(--color-5);
 }
 header .info_title p{
     font-family: "avenir-roman";
-    padding: 0 58px 24px 0;
+    padding: 0 24px 24px 0;
     font-size: 26px;
     color: var(--color-6);
     line-height: 35px;
@@ -54,5 +50,27 @@ header .info_title a{
     border-radius: 16px;
     text-decoration: none;
     font-size: 16px;
+
+}
+
+main{
+    display: flex;
+    padding: 0 60px 63px 64px;
+    gap: 40px; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main div img{
+    width: 412px;
+    height: 379.12px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+main div p{
+    font-family: "Avenir-Heavy";
+    font-size: 40px;
+    color: var(--color-8);
+
 
 }
