@@ -4,3 +4,55 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    display: flex;
+}
+
+header img{
+    width: 408px;
+    height: 480px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+header > img{
+    margin: 152px 64px 0 35px;  
+}
+
+header .first_image{
+    margin-top: 64px;
+}
+
+header .info_title{
+    display: flex;
+    flex-direction: column;
+    padding: 137px 17px 159px 64px;
+    align-items: flex-start;
+ 
+}
+
+header .info_title h1{
+    font-family: "Avenir-Heavy";
+    padding-bottom: 24px;
+    font-size: 56px;
+    color: var(--color-5);
+}
+header .info_title p{
+    font-family: "avenir-roman";
+    padding: 0 58px 24px 0;
+    font-size: 26px;
+    color: var(--color-6);
+    line-height: 35px;
+}
+
+header .info_title a{
+    font-family: "avenir-roman";
+    padding: 16px 32px ;
+    background-color: var(--color-5);
+    color: var(--color-7);
+    border-radius: 16px;
+    text-decoration: none;
+    font-size: 16px;
+
+}
