@@ -42,3 +42,14 @@ header div a{
     border-radius: 16px;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 63px 56px 64px;
+}
+
+main img{
+    width:100%;
+    object-fit: cover;
+}
