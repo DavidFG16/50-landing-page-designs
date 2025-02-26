@@ -34,7 +34,7 @@ main header h1{
 main header p{
     font-family: "avenir-roman";
     font-size: 26px;
-    color: var(--color-15);
+    color: var(--color-13);
     line-height: 35px;
 }
 
@@ -69,3 +69,8 @@ main section div p:last-child{
     line-height: 35px;
 }
 
+
+img{
+    width: 50%;
+    padding-top: 67px;
+}
