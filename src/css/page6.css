@@ -15,7 +15,7 @@ header{
     display: flex;
     flex-direction: column;
     margin: 64.75px 0 64px 64.75px ;
-    width: 629px;
+    width: 653px;
 }
 
 header img{
@@ -29,6 +29,7 @@ header h1{
     line-height: 80px;
     color: var(--color-23);
     margin-top: 55.1px;
+    margin-left: 24px;
 }
 
 header > p{
@@ -37,12 +38,14 @@ header > p{
     line-height: 30px;
     color: var(--color-20);
     margin-top: 32px;
+    margin-left: 24px;
 }
 
 header .buttons{
     display: flex;
     gap: 32px;
     margin-top: 32px;
+    margin-left: 24px;
 }
 
 header .buttons a{
@@ -67,6 +70,34 @@ header .buttons a:last-child{
     border: 1px solid var(--color-20);
 }
 
+header .features{
+    display: flex;
+    gap: 80px;
+    margin-top: 70px;
+    border: 1px solid var(--color-21);
+    border-radius: 24px;
+    padding: 24px 24px;
+    width: 652px;
+    height: 118px;
+
+}
+
+header .features div{    
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+header .features div img{
+    width: 24px;
+    height: 24px;
+}
+
+header .features div p{
+    font-family: "WorkSans-Regular";
+    font-size: 16px;
+    color: var(--color-21);
+}
 
 
 
