@@ -50,3 +50,16 @@ main .section-parapgraph p{
     line-height: 35px;
     color: var(--color-17);
 }
+
+main .section-image{
+    display: flex;
+    flex-direction: row;
+    gap:56px;
+    margin-top: 24px;
+}
+
+main .section-image img{
+    width: 400px;
+    height: 345px;
+    object-fit: cover;
+}
