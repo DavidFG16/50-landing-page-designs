@@ -17,3 +17,41 @@ header h1{
     line-height: 88px;
     color: var(--color-27);
 }
+
+main{
+    display: flex;
+    gap: 16px;
+    padding:0 64px 63px 64px;
+}
+
+main .container{
+    gap: 16px;
+
+}
+
+main .container > p:nth-child(1){
+    font-family: "Avenir-Heavy";
+    color: var(--color-30);
+    font-size: 40px;
+}
+
+main .container > p:nth-child(2){
+    font-family: "avenir-roman";
+    color: var(--color-28);
+    font-size: 24px;
+    line-height: 31px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+main .container img{
+    width: 316px;
+    height: 402px;
+}
