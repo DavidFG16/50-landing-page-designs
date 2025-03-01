@@ -1,0 +1,19 @@
+:root{
+    --color-38: #363830;
+    --color-39: linear-gradient(315deg, rgba(200,204,207,1) 0%, rgba(151,163,163,1) 100%);; 
+    --color-40: #FFFFFF;
+    --color-41: linear-gradient(315deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%);;
+}
+
+@font-face {
+    font-family:"Poppins-Bold.ttf" ;
+    src: url(../storage/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family:"Poppins/Poppins-Regular.ttf" ;
+    src: url(../storage/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family:"Poppins-SemiBold" ;
+    src: url(../storage/fonts/Poppins/Poppins-SemiBold.ttf);
+}
