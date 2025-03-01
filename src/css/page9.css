@@ -12,7 +12,8 @@ body{
     grid-template-areas: "header"
                         "main";
     padding: 64px 64px 63px 64px;
-    gap: 217px;
+    row-gap: 217px;
+    position: relative;
 }
 
 header{
@@ -98,4 +99,24 @@ main div p:last-child{
     font-family: "Poppins-Regular";
     font-size: 16px;
     line-height: auto;
+}
+
+body img:nth-child(1){
+   position: absolute; 
+   z-index: -1;
+   width: 462px;
+   height:508px;
+   bottom: 0;
+   left: 64px;
+   object-fit: cover;
+}
+
+body img:nth-child(2){
+    position: absolute; 
+    z-index: -1;
+    width: 537.4px;
+    height:512px;
+    right: 64px;
+    top: 0;
+    object-fit: cover;
 }
