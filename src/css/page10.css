@@ -8,9 +8,11 @@
 body{
     background-color: var(--color-45);
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 449px 1fr;
+    /* grid-template-rows: 792px 1fr; */
     grid-template-areas: "header main";
     padding: 67px 64px 67px 132px;
+    gap: 53px;
 }
 
 header{
@@ -18,6 +20,8 @@ header{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
+    width: 449px;
 }
 
 header h1{
@@ -52,4 +56,26 @@ header a{
     line-height: 18px;
     background-color: var(--color-43);
     border-radius: 36px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+main img{
+    width: 172px;
+    height: 192px;
+    object-fit: cover;
+    border-radius: 40px;
 }
