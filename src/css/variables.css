@@ -1,0 +1,14 @@
+:root{
+    --color-42: #BEA7A7;
+    --color-43: #FFFFFF; 
+    --color-44: #232323;
+    --color-45: #2F2F2F;
+    --color-46: #6BDFDA;
+    --color-47: #9AD7F3;
+    --color-48: #FEC3C7;
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/fonts/Poppins/Poppins-Regular.ttf);
+}
