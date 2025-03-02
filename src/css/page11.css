@@ -12,6 +12,7 @@ body{
                          "main main";      
     padding: 92px 64px 59.34px 65px;      
     column-gap: 126px;
+    row-gap: 56px;
 }
 
 header{
@@ -73,4 +74,35 @@ section img:first-child{
 section img:last-child{
     bottom: 0;
     right: 0;
+}
+
+main{
+    grid-area: main;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 64px;
+    border-radius: 40px;
+    background-color: var(--color-50);
+    gap: 118px;
+}
+
+main div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main div p:nth-child(2){
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-53);
+    margin-top: 12px;
+}
+
+main div p:nth-child(3){
+    font-family: "Avenir-Book";
+    font-size: 24px;
+    color: var(--color-49);
+    margin-top: 24px;
 }
