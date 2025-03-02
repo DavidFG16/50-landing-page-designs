@@ -1,0 +1,25 @@
+:root{
+    --color-49: #FFFFFF;
+    --color-50: #252525;
+    --color-51: #D9D9D9;
+    --color-52: rgba(37, 37, 37, 0.8);
+    --color-53: rgba(255, 255, 255, 0.8);
+
+}
+
+@font-face {
+    font-family: "Avenir-Book";
+    src: url(../storage/fonts/Avenir_Book/avenir-book.ttf);
+}
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url(../storage/fonts/Avenir_Heavy/Avenir-Heavy.ttf);
+}
+@font-face {
+    font-family: "avenir-roman";
+    src: url(../storage/fonts/Avenir/avenir-roman.ttf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/fonts/Poppins/Poppins-Regular.ttf);
+}
