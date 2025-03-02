@@ -4,3 +4,46 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "header img" 
+                         "main main";      
+    padding: 92px 64px 59.34px 65px;      
+}
+
+header{
+    grid-area: header;
+    align-items: flex-start;
+    gap: 32px;
+    width: 637px;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1{
+    font-family: "Avenir-Heavy";
+    font-size: 72px;
+    color: var(--color-50);
+    line-height: 88px;
+}
+
+header p{
+    font-family: "avenir-roman";
+    font-size: 26px;
+    color: var(--color-52);
+    padding-right: 51px;
+    line-height: 36px;
+}
+
+header a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-49);
+    text-decoration: none;
+    padding: 24px 48px;
+    background-color: var(--color-50);
+    border-radius: 36px;
+    line-height: 18px;
+}
