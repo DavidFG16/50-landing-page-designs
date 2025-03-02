@@ -78,7 +78,7 @@ main .imgs img{
 
 main .imgs img:first-child{
     top: 215px;
-    z-index: 1;
+    z-index: -1;
 }
 
 main .imgs img:last-child{
@@ -108,4 +108,32 @@ main .info p{
     color: var(--color-56);
     line-height: 32px;
     padding: 16px 24px 16px 0;
+}
+
+body > img:nth-child(4){
+    position: absolute;
+    bottom: 66px;
+    left: 142px;
+}
+
+body > img:nth-child(5){
+    position: absolute;
+    inset:0;
+    margin:auto;
+    /* top: 398px;
+    left: 596px; */
+
+}
+body > img:nth-child(6){
+    position: absolute;
+    right: 88px;
+    bottom: 226px;
+
+}
+
+body > img:nth-child(7){
+    position: absolute;
+    top: 91px;
+    left: 498px;
+
 }
