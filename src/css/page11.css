@@ -11,6 +11,7 @@ body{
     grid-template-areas: "header img" 
                          "main main";      
     padding: 92px 64px 59.34px 65px;      
+    column-gap: 126px;
 }
 
 header{
@@ -20,6 +21,7 @@ header{
     width: 637px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 header h1{
@@ -46,4 +48,29 @@ header a{
     background-color: var(--color-50);
     border-radius: 36px;
     line-height: 18px;
+}
+
+section{
+    grid-area: img;
+    position: relative;
+    width: 547.67px;
+    height: 518.66px;
+    right: 0;
+}
+
+section img{
+    width: 322.67px;
+    height: 384.66px;
+    object-fit: cover;
+    border-radius: 400px 400px 0 0 ;
+    position: absolute;
+}
+
+section img:first-child{
+    z-index: -1;
+}
+
+section img:last-child{
+    bottom: 0;
+    right: 0;
 }
