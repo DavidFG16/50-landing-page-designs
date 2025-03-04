@@ -1,0 +1,108 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "header img" 
+                         "main main";      
+    padding: 92px 64px 59.34px 65px;      
+    column-gap: 126px;
+    row-gap: 56px;
+}
+
+header{
+    grid-area: header;
+    align-items: flex-start;
+    gap: 32px;
+    width: 637px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1{
+    font-family: "Avenir-Heavy";
+    font-size: 72px;
+    color: var(--color-50);
+    line-height: 88px;
+}
+
+header p{
+    font-family: "avenir-roman";
+    font-size: 26px;
+    color: var(--color-52);
+    padding-right: 51px;
+    line-height: 36px;
+}
+
+header a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-49);
+    text-decoration: none;
+    padding: 24px 48px;
+    background-color: var(--color-50);
+    border-radius: 36px;
+    line-height: 18px;
+}
+
+section{
+    grid-area: img;
+    position: relative;
+    width: 547.67px;
+    height: 518.66px;
+    right: 0;
+}
+
+section img{
+    width: 322.67px;
+    height: 384.66px;
+    object-fit: cover;
+    border-radius: 400px 400px 0 0 ;
+    position: absolute;
+}
+
+section img:first-child{
+    z-index: -1;
+}
+
+section img:last-child{
+    bottom: 0;
+    right: 0;
+}
+
+main{
+    grid-area: main;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 64px;
+    border-radius: 40px;
+    background-color: var(--color-50);
+    gap: 118px;
+}
+
+main div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main div p:nth-child(2){
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-53);
+    margin-top: 12px;
+}
+
+main div p:nth-child(3){
+    font-family: "Avenir-Book";
+    font-size: 24px;
+    color: var(--color-49);
+    margin-top: 24px;
+}
