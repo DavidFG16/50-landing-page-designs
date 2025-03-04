@@ -10,6 +10,10 @@
     --color-9:#252525;
     --color-10: rgba(37, 37, 37, 0.8);
     --color-11:#FFFFFF ;
+    --color-12: #252525;
+    --color-13: rgba(37, 37, 37, 0.8);
+    --color-14: #FFFFFF;
+    --color-15:rgba(37, 37, 37, 0.55);;
 }
 
 @font-face {
@@ -19,4 +23,3 @@
 @font-face {
     font-family: "Avenir-Heavy";
     src: url(../storage/fonts/Avenir-Heavy.ttf);
-}
