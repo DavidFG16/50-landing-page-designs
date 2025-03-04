@@ -1,0 +1,76 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main header{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 80px 112px 88px 112px;
+    align-items: flex-start;
+}
+
+main header h1{
+    font-family: "Avenir-Heavy";
+    font-size: 64px;
+    color: var(--color-12);
+    line-height: 80px;
+}
+
+main header p{
+    font-family: "avenir-roman";
+    font-size: 26px;
+    color: var(--color-13);
+    line-height: 35px;
+}
+
+main header a{
+    font-family: "avenir-roman";
+    font-size: 18px;
+    color: var(--color-14);
+    background-color: var(--color-12);
+    text-decoration: none;
+    padding: 18px 48px ;
+    border-radius: 16px;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 112px 80px 112px;
+
+}
+
+main section div p:first-child{
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-15);
+}
+
+main section div p:last-child{
+    font-family: "avenir-roman";
+    font-size: 24px;
+    color: var(--color-15);
+    line-height: 35px;
+}
+
+
+img{
+    width: 50%;
+    padding-top: 67px;
+}
