@@ -5,3 +5,49 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "header" 
+                         "main";      
+    padding: 0 0 64px 59px;      
+    background-color: var(--color-71);
+}
+
+header{
+    grid-area: header;
+    align-items: flex-start;
+    gap: 24px;
+    width: 684px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6px;
+}
+
+header h1{
+    font-family: "Lato-Black";
+    font-size: 88px;
+    color: var(--color-70);
+}
+
+header p{
+    font-family: "Lato-Regular";
+    font-size: 24px;
+    color: var(--color-70);
+    padding-right: 116px;
+    line-height: 32px;
+}
+
+header a{
+    font-family: "Lato-Regular";
+    font-size: 24px;
+    color: var(--color-71);
+    text-decoration: none;
+    padding: 24px 48px;
+    background-color: var(--color-70);
+    border-radius: 16px;
+    line-height: 18px;
+}
