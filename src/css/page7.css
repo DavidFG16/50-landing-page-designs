@@ -77,6 +77,6 @@ main .container .subcontainer p:nth-child(2){
 
 
 main .container img{
-    width: 316px;
+    width: 100%;
     height: 402px;
 }
