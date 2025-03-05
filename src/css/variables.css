@@ -1,4 +1,4 @@
-:root{
+:root {
     --color-1: #FFFFFF;
     --color-2: rgba(37, 37, 37, 0.8);
     --color-3: #252525;
@@ -118,4 +118,3 @@
     font-family: "Avenir-Book";
     src: url(../storage/fonts/Avenir_Book/avenir-book.ttf);
 }
-
