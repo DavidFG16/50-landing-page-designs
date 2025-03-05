@@ -9,11 +9,22 @@
 
 body{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-template-areas: "header" 
                          "main";      
     padding: 0 0 64px 59px;      
     background-color: var(--color-71);
+    /* background:url(../storage/img/page23_bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+body img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
 }
 
 header{
@@ -51,3 +62,4 @@ header a{
     border-radius: 16px;
     line-height: 18px;
 }
+
