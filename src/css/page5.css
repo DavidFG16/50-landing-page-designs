@@ -19,46 +19,39 @@ header h1{
 }
 
 main{
+    display: flex;
     padding: 0 64px 64px;
+    gap: 56px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 
 
-main .section-numbers{
+main div{
     display: flex;
-    flex-direction: row;
-    gap:418px;
+    flex-direction: column;
     margin-bottom: 4px;
 }
 
-main .section-numbers p{
+main div p:nth-child(1){
     font-family: "Avenir-Heavy";
     font-size: 32px;
     line-height: 35px;
     color: var(--color-19);
+    margin-bottom: 4px;
 }
 
-main .section-parapgraph{
-    display: flex;
-    flex-direction: row;
-    gap:56px;
-}
-
-main .section-parapgraph p{
+main div p:nth-child(2){
     font-family: "avenir-roman";
     font-size: 24px;
     line-height: 35px;
     color: var(--color-17);
+    width: 400px;
 }
 
-main .section-image{
-    display: flex;
-    flex-direction: row;
-    gap:56px;
+main div img{
     margin-top: 24px;
-}
-
-main .section-image img{
     width: 400px;
     height: 345px;
     object-fit: cover;
