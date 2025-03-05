@@ -68,10 +68,6 @@
     font-family: "Avenir-Heavy";
     src: url(../storage/fonts/Avenir-Heavy.ttf);
 }
-@font-face {
-    font-family: "Avenir-Heavy";
-    src: url(../storage/fonts/Avenir-Heavy.ttf);
-}
  
 @font-face {
     font-family: "WorkSans-Regular";
@@ -116,5 +112,5 @@
 
 @font-face {
     font-family: "Avenir-Book";
-    src: url(../storage/fonts/Avenir_Book/avenir-book.ttf);
+    src: url(../storage/fonts/Avenir_Book/avenir-book.ttf);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 }
