@@ -68,10 +68,6 @@
     font-family: "Avenir-Heavy";
     src: url(../storage/fonts/Avenir-Heavy.ttf);
 }
-@font-face {
-    font-family: "Avenir-Heavy";
-    src: url(../storage/fonts/Avenir-Heavy.ttf);
-}
  
 @font-face {
     font-family: "WorkSans-Regular";
@@ -100,7 +96,6 @@
     font-family:"WorkSans-Medium" ;
     src: url(../storage/fonts/WorkSans-Medium.ttf);
 }
-
 @font-face {
     font-family:"Poppins-Bold" ;
     src: url(../storage/fonts/Poppins/Poppins-Bold.ttf);
