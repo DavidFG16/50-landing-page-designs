@@ -1,0 +1,66 @@
+@import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: var(--color-65);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 94svh;
+    padding: 100px 10px 0 106px;
+    grid-template-areas:"info img"
+}
+header{
+    grid-area: info;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 591px;
+    gap: 32px;
+}
+
+header  img{
+    object-fit: cover;
+    padding-bottom: 32px;
+}
+
+
+header h1{
+    font-family: "Bitter-ExtraBold";
+    font-size: 72px;
+    color: var(--color-62);
+    line-height: 96px;
+}
+header p{
+    font-family: "SpaceMono-Regular";
+    font-size: 24px;
+    color: var(--color-63);
+    line-height: 34px;
+    padding-right: 66px;
+}
+header a{
+    font-family: "SpaceMono-Regular";
+    font-size: 20px;
+    color: var(--color-64);
+    line-height: 18px;
+    text-decoration: none;
+    padding: 24px 40px; 
+    background-color: var(--color-62);
+    border-radius: 40px;
+}
+main{
+    position: relative;
+}
+
+main img{
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
