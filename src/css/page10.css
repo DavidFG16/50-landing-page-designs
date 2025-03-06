@@ -1,0 +1,127 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-45);
+    display: grid;
+    grid-template-columns: 449px 1fr;
+    /* grid-template-rows: 792px 1fr; */
+    grid-template-areas: "header main";
+    padding: 67px 64px 67px 132px;
+    gap: 53px;
+}
+
+header{
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 449px;
+}
+
+header h1{
+    font-family: "Poppins-Bold";
+    font-size: 72px;
+}
+
+header h1:nth-child(1){
+    color: var(--color-48);
+}
+header h1:nth-child(2){
+    color: var(--color-47);
+}
+header h1:nth-child(3){
+    color: var(--color-46);
+}
+
+header p{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-43);
+    margin-top: 24px;
+}
+
+header a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-44);
+    text-decoration: none;
+    margin-top: 24px;
+    padding: 24px 48px;
+    line-height: 18px;
+    background-color: var(--color-43);
+    border-radius: 36px;
+}
+
+main{
+    display: grid;
+    grid-area: main;
+    grid-template-areas: "main1 main2 main3 main4"
+                        "main5 main6 main7 main8"
+                        "main9 main10 main11 main12" 
+                        "main13 main14 main15 main16" 
+                                                    ;
+    row-gap: 8px;
+    column-gap: 16px;
+}
+main img{
+    width: 172px;
+    height: 192px;
+    object-fit: cover;
+    border-radius: 40px;
+    justify-self: center;
+}
+
+main img:nth-child(1){
+    grid-area: main1;
+}
+main img:nth-child(2){
+    grid-area: main2;
+}
+main img:nth-child(3){
+    grid-area: main3;
+}
+main img:nth-child(4){
+    grid-area: main4;
+}
+main img:nth-child(5){
+    grid-area: main5;
+}
+main img:nth-child(6){
+    grid-area: main6;
+}
+main img:nth-child(7){
+    grid-area: main7;
+}
+main img:nth-child(8){
+    grid-area: main8;
+}
+main img:nth-child(9){
+    grid-area: main9;
+}
+main img:nth-child(10){
+    grid-area: main10;
+}
+main img:nth-child(11){
+    grid-area: main11;
+}
+main img:nth-child(12){
+    grid-area: main12;
+}
+main img:nth-child(13){
+    grid-area: main13;
+}
+main img:nth-child(14){
+    grid-area: main14;
+}
+main img:nth-child(15){
+    grid-area: main15;
+}
+main img:nth-child(16){
+    grid-area: main16;
+}   

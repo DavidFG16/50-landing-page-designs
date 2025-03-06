@@ -46,14 +46,6 @@ header .first_image img:nth-child(2){
     right: 0;
 } 
 
-
-
-
-
-
-
-
-
 header .info_title{
     display: flex;
     flex-direction: column;
@@ -61,7 +53,6 @@ header .info_title{
     justify-content: center;
     width: 444px;
     gap: 24px;
- 
 }
 
 header .info_title h1{
@@ -107,6 +98,4 @@ main div p{
     font-family: "Avenir-Heavy";
     font-size: 40px;
     color: var(--color-8);
-
-
 }
