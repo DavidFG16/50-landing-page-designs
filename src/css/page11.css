@@ -52,14 +52,25 @@ header a{
 }
 
 section{
+    display: flex;
     grid-area: img;
     position: relative;
-    width: 547.67px;
-    height: 518.66px;
     right: 0;
+    justify-content: flex-end;
 }
 
-section img{
+section div{
+    align-items: flex-end;
+    display: flex;
+    width: 547.67px;
+    height: 518.66px;
+    position: relative;
+    justify-content: flex-end;
+    
+
+}
+
+section div img{
     width: 322.67px;
     height: 384.66px;
     object-fit: cover;
@@ -67,11 +78,13 @@ section img{
     position: absolute;
 }
 
-section img:first-child{
+section div img:first-child{
+    left: 0;
+    top: 0;
     z-index: -1;
 }
 
-section img:last-child{
+section div img:last-child{
     bottom: 0;
     right: 0;
 }

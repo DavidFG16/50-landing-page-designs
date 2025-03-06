@@ -98,7 +98,6 @@
     font-family:"WorkSans-Medium" ;
     src: url(../storage/fonts/WorkSans-Medium.ttf);
 }
-
 @font-face {
     font-family:"Poppins-Bold" ;
     src: url(../storage/fonts/Poppins/Poppins-Bold.ttf);
@@ -129,5 +128,3 @@
     font-family: "lato-medium";
     src: url(../storage/fonts/Lato/lato-medium.ttf);
 }
-
-
