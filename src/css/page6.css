@@ -1,0 +1,179 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    margin: 64.75px 0 64px 64.75px ;
+    width: 653px;
+}
+
+header img{
+    width: 101.04px;
+    height: 101.16px;
+}
+
+header h1{
+    font-family: "PlayfairDisplay-Bold";
+    font-size: 64px;
+    line-height: 80px;
+    color: var(--color-23);
+    margin-top: 55.1px;
+    margin-left: 24px;
+}
+
+header > p{
+    font-family: "WorkSans-Regular";
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--color-20);
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+header .buttons{
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+header .buttons a{
+    font-family: "WorkSans-Medium";
+    font-size: 24px;
+    line-height: 18px;
+    color: var(--color-24);
+    text-decoration: none;
+    padding: 24px 48px;
+}
+
+header .buttons a:first-child{
+    background-color: var(--color-23);
+    color: var(--color-22);
+    border-radius: 16px;
+}
+
+header .buttons a:last-child{
+    background-color: var(--color-22);
+    color: var(--color-20);
+    border-radius: 16px;
+    border: 1px solid var(--color-20);
+}
+
+header .features{
+    display: flex;
+    gap: 80px;
+    margin-top: 70px;
+    border: 1px solid var(--color-21);
+    border-radius: 24px;
+    padding: 24px 24px;
+    width: 652px;
+    height: 118px;
+
+}
+
+header .features div{    
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+header .features div img{
+    width: 24px;
+    height: 24px;
+}
+
+header .features div p{
+    font-family: "WorkSans-Regular";
+    font-size: 16px;
+    color: var(--color-21);
+}
+
+main{
+    position: absolute;
+    margin: 62px 63.69px 92.81px 0;
+    width: 635.31px;
+    height: 778.19px;
+    right: 0;
+}
+
+main .border1{
+    position: absolute;
+    border: 1px solid var(--color-21);
+    border-radius: 48px;
+    width: 480px;
+    height: 568px;
+    top: 31px;
+    left: 68px;
+    z-index: -1;
+}
+
+main .border2{
+    position: absolute;
+    border: 1px solid var(--color-21);
+    border-radius: 48px;
+    width: 310px;
+    height: 476px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+main img:nth-child(3){
+    position: absolute;
+    width: 75px;
+    height: 94.59;
+    top: 159px;
+    left: 160px;
+    z-index: 20;
+}
+
+main img:nth-child(5){
+    position: absolute;
+    width: 102.74px;
+    height:129.58px;
+    right: 51.77px;
+    bottom: 86.34px;
+    z-index: 20;
+}
+
+main img:nth-child(4){
+    position: absolute;
+    width: 480px;
+    height: 628px;
+    border-radius: 51.83px;
+    top: 90.24px;
+    right: 34.55px;
+    object-fit: cover;
+}
+
+main p{
+    position: absolute;
+    font-family: "WorkSans-Regular";
+    padding: 16px 24px; 
+    background-color: var(--color-24);
+    border-radius: 16px;
+    color: var(--color-22);
+    font-weight: normal;
+}
+
+main p:nth-child(7){
+    font-size: 24px;
+    left: 32px;
+    bottom: 99.19px;
+}
+main p:nth-child(8){
+    font-size: 18px;
+    top: 136px;
+    right: 0.31px;
+}
