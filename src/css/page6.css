@@ -100,11 +100,11 @@ header .features div p{
 }
 
 main{
-    position: relative;
+    position: absolute;
     margin: 62px 63.69px 92.81px 0;
     width: 635.31px;
     height: 778.19px;
-
+    right: 0;
 }
 
 main .border1{
