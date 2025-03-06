@@ -60,6 +60,11 @@
     --color-59: #F0C3D2;
     --color-60: #06040A;
     --color-61: #FFFFFF;
+    --color-62: #181818;
+    --color-63: #252525;
+    --color-64: #FFFFFF;
+    --color-65: linear-gradient(-15deg, #F8D696 0%, #EABF61 100%);
+    --color-66: rgba(252, 235, 201, 0.8);
 }
 
 @font-face {
@@ -117,6 +122,13 @@
 }
 
 @font-face {
+    font-family: "Bitter-ExtraBold";
+    src: url(../storage/fonts/Bitter/static/Bitter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "SpaceMono-Regular";
+    src: url(../storage/fonts/Space_Mono/SpaceMono-Regular.ttf);
+}
     font-family: "Lato-Bold";
     src: url(../storage/fonts/Lato/Lato-Bold.ttf);
 }
