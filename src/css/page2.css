@@ -5,27 +5,62 @@
     box-sizing: border-box;
 }
 
+body{
+    display: grid;
+    row-gap: 72px;
+    grid-template-areas: "header" "main";
+    padding: 64px;
+}
+
+
+
 header{
     display: flex;
-    padding:65px 64px 72px ;
+    align-items: center;
+    justify-content: space-between;
 }
 
-header img{
+header .first_image img{
     width: 408px;
     height: 480px;
-    border-radius: 16px;
     object-fit: cover;
+    border-radius: 16px;
 }
 
-header > img{
-    margin: 152px 0 0 35px;  
+header .first_image{
+    position: relative;
+    display: flex;
+    width: 851px;
+    right: 0;
+    height: 632px;
+} 
+
+header .first_image img:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
 }
+header .first_image img:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} 
+
+
+
+
+
+
+
+
 
 header .info_title{
     display: flex;
     flex-direction: column;
-    padding: 72px 75px 0 2px;
     align-items: flex-start;
+    justify-content: center;
+    width: 444px;
+    gap: 24px;
  
 }
 
@@ -36,9 +71,10 @@ header .info_title h1{
 }
 header .info_title p{
     font-family: "avenir-roman";
-    padding: 0 24px 24px 0;
     font-size: 26px;
     color: var(--color-6);
+    padding: 0px 0 24px 0px;
+    padding-right: 54px;
     line-height: 35px;
 }
 
@@ -54,18 +90,18 @@ header .info_title a{
 }
 
 main{
+    grid-area: main;
     display: flex;
-    padding: 0 60px 63px 64px;
-    gap: 40px; 
-    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
     justify-content: space-between;
 }
 
 main div img{
     width: 412px;
     height: 379.12px;
-    border-radius: 16px;
     object-fit: cover;
+    border-radius: 16px;
 }
 main div p{
     font-family: "Avenir-Heavy";
